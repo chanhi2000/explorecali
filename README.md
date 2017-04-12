@@ -5,6 +5,7 @@ A demo project for spring boot
 - [x] Generate a working Spring Boot project w/ [Spring Initializer][1]
 - [x] Build, deplay and launch the application
 - [x] Added the domain models
+- [x] Added 2 models (repos, services) that manage Tour and TourPackage data 
  
 ## Features
 #### v0.0.1 (first commit)
@@ -68,6 +69,8 @@ Create a set of appropriate domain models
 This is the UML diagram that represents our models' relationship to one another
 ![img03][img03]
 
+#### v0.0.3
+Create repo and service models that manage Tour and TourPackage, using their repos
 
 
 
