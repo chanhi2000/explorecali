@@ -41,7 +41,7 @@ cd explorecali
 Check you currently installed the latest jdk and apache maven
 ```shell
 java -version
-mvn --version
+mvn -version
 ```
 If so, then type this `mvn` command that will download required dependencies into your local repo
 ```shell
@@ -55,7 +55,7 @@ __NOTE__: add this flag to modify the port you want to test on
 ```shell
 java -jar -Dserver.port=[NUMBER_OF_PORT] target/explorecali-0.0.1-SNAPSHOT.jar
 java -jar 
-
+```
 
 
 [1]: https://start.spring.io 
