@@ -46,10 +46,8 @@ public class Tour implements Serializable{
 	@Column
 	private Region region;
 	
-	public Tour(Integer id, String title, String description, String blurb, Integer price, String duration,
+	public Tour(String title, String description, String blurb, Integer price, String duration,
 			String bullets, String keywords, TourPackage tourPackage, Difficulty difficulty, Region region) {
-		super();
-		this.id = id;
 		this.title = title;
 		this.description = description;
 		this.blurb = blurb;
