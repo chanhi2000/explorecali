@@ -54,9 +54,9 @@ java -jar target/explorecali-0.0.1-SNAPSHOT.jar
 __NOTE__: add this flag to modify the port you want to test on
 ```shell
 java -jar -Dserver.port=[NUMBER_OF_PORT] target/explorecali-0.0.1-SNAPSHOT.jar
-java -jar 
 ```
-
+![img02][img02]
 
 [1]: https://start.spring.io 
 [img01]: /screenshots/[screenshot]01.png 
+[img02]: /screenshots/[screenshot]02.png
