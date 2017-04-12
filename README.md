@@ -3,8 +3,9 @@ A demo project for spring boot
 
 ## Tasks
 - [x] Generate a working Spring Boot project w/ [Spring Initializer][1]
-- [ ] Build, deplay and launch the application
-
+- [x] Build, deplay and launch the application
+- [x] Added the domain models
+ 
 ## Features
 #### v0.0.1 (first commit)
 Generate a Spring Boot Project (maven) with the help of [Spring Initializer][1]
@@ -57,6 +58,20 @@ java -jar -Dserver.port=[NUMBER_OF_PORT] target/explorecali-0.0.1-SNAPSHOT.jar
 ```
 ![img02][img02]
 
+#### v0.0.2
+Create a set of appropriate domain models
+- `Difficutly.java`
+- `Region java`
+- `TourPacakge.java`
+- `Tour.java`
+
+This is the UML diagram that represents our models' relationship to one another
+![img03][img03]
+
+
+
+
 [1]: https://start.spring.io 
 [img01]: /screenshots/[screenshot]01.png 
 [img02]: /screenshots/[screenshot]02.png
+[img93]: /screenshots/[screenshot]03.png
