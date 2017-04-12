@@ -74,4 +74,4 @@ This is the UML diagram that represents our models' relationship to one another
 [1]: https://start.spring.io 
 [img01]: /screenshots/[screenshot]01.png 
 [img02]: /screenshots/[screenshot]02.png
-[img93]: /screenshots/[screenshot]03.png
+[img03]: /screenshots/[screenshot]03.png
