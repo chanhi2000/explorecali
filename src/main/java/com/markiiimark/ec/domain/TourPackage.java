@@ -33,7 +33,10 @@ public class TourPackage implements Serializable {
 	
 	@Override
 	public String toString() {
-		return "TourPcakge{" + "code='" + code + "\'" + ", name='" + name + "\'" + "}";
+		return "TourPcakge{" + 
+				"code='" + code + '\'' + 
+				", name='" + name + '\'' + 
+				"}";
 	}
 
 	@Override
