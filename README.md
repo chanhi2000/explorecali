@@ -72,9 +72,30 @@ This is the UML diagram that represents our models' relationship to one another
 #### v0.0.3
 Create repo and service models that manage Tour and TourPackage, using their repos
 
+#### v0.0.4
+Modify `ExplorecaliApplication.java` and added methods to initialize Tours and TourPacakges for testing spring data query.
 
+A Simple test of our RESTful API.
+- ###### `GET https://localhost:8080`
+![img04][img04]    
+- ###### `GET https://localhost:8080/tourPackages`
+![img05][img05]
+- ###### `GET https://localhost:8080/tourPackages/BC`
+![img06][img06]
+- ###### `POST https://localhost:8080/tourPackages`  
+![img07][img07] 
+- ###### `GET https://localhost:8080/tourPacakges` after status 201 
+![img08][img08] 
+- ###### `GET https://localhost:8080/tourPacakges/ZC`
+![img09][img09]
 
 [1]: https://start.spring.io 
 [img01]: /screenshots/[screenshot]01.png 
 [img02]: /screenshots/[screenshot]02.png
 [img03]: /screenshots/[screenshot]03.png
+[img04]: /screenshots/[screenshot]04.png
+[img05]: /screenshots/[screenshot]05.png
+[img06]: /screenshots/[screenshot]06.png
+[img07]: /screenshots/[screenshot]07.png
+[img08]: /screenshots/[screenshot]08.png
+[img09]: /screenshots/[screenshot]09.png
