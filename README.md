@@ -88,6 +88,17 @@ A Simple test of our RESTful API.
 ![img08][img08] 
 - ###### `GET https://localhost:8080/tourPacakges/ZC`
 ![img09][img09]
+- ###### `PUT https://localhost:8080/tourPacakge/ZC`
+![img10][img10]
+- ###### `GET https://localhost:8080/tourPacakge/ZC` after status 200
+![img11][img11]
+- ###### `DELETE https://localhost:8080/tourPackage/ZC` with status 204 
+![img12a][img12a]
+![img12b][img12b] 
+- ###### `DELETE https://localhost:8080/tourPacakge/BC` with status 409
+![img13][img13]
+
+
 
 [1]: https://start.spring.io 
 [img01]: /screenshots/[screenshot]01.png 
@@ -99,3 +110,10 @@ A Simple test of our RESTful API.
 [img07]: /screenshots/[screenshot]07.png
 [img08]: /screenshots/[screenshot]08.png
 [img09]: /screenshots/[screenshot]09.png
+[img10]: /screenshots/[screenshot]10.png
+[img11]: /screenshots/[screenshot]11.png
+[img12a]: /screenshots/[screenshot]12a.png
+[img12b]: /screenshots/[screenshot]12b.png
+[img13]: /screenshots/[screenshot]13.png
+[img14]: /screenshots/[screenshot]14.png
+
